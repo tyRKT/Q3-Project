@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>Sign in</title>
+	<nav class="navbar navbar-expand-sm navbar-custom">
+	<style>
+        body{
+            background-color: #72b063;
+            font-family: Georgia, sans-serif;
+        }
+
+        .container{
+            background-color: #d8a1a8;
+            padding: 5px;
+            border-radius: 10px; 
+            overflow: hidden; 
+            width: 90%;
+        }
+
+        .email,
+        .password,
+        .remember,
+        .button {
+           border-radius: 5px; 
+        }
+
+        .btn-custom {
+          background-color: #e3da4a;
+          color: ;
+        }
+
+        
+        label {
+            margin-right: 10px;
+        }
+
+        :root {
+        --custom-navbar-bg: #e0b4bf; 
+        --custom-navbar-text: #64352b; 
+        }
+
+       .custom-navbar-style .navbar-brand {
+        color: var(--custom-navbar-text);
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        color: var(--custom-navbar-text);
+        }
+  
+        .custom-navbar-style {
+        background-color: var(--custom-navbar-bg) !important;
+        }
+
+        .navbar-custom {
+            background-color: #e3da4a;
+
+	</style>
+</head>
+<body>
+
+ <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/The_New_York_Times_logo.png" alt="te" width="200">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            	<li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/pc/Documents/3RD%20QTR%20PROJECT/index.html#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/channel/UCOf6pX571cKC0rhOZqv2y7Q">YouTube</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://thesmartlocal.ph/beabadoobee/">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/pc/Documents/3RD%20QTR%20PROJECT/sign.html?">Sign in</a>
+                </li>
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                        Facts
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                        <li><a class="dropdown-item" href="file:///C:/Users/pc/Documents/3RD%20QTR%20PROJECT/facts!!.html">Fun Facts</a></li>
+                        <li><a class="dropdown-item" href="file:///C:/Users/pc/Documents/3RD%20QTR%20PROJECT/cattt!!.html">Cats</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-light" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-3">
+        <h1>User Registration</h1>
+        <form>
+            <div class="form-group mb-3"> 
+                <label>Username:</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Enter your username">
+            </div>
+
+            <div class="email mb-3"> 
+                <label for="inputEmail">Email Address:</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+            </div>
+
+            <div class="password mt-3"> 
+                <label for="inputPassword">Password:</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password">
+            </div>
+
+            <div class="password mt-3"> 
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+            </div>
+
+            <div class="remember mb-3"> 
+                <div>
+                    <input type="checkbox" id="checkRemember">
+                    <label for="checkRemember">I agree to the terms and conditions</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-custom">Register</button>
+        </form>
+    </div>
+
+</body>
+</html>
